@@ -1,0 +1,59 @@
+.medidaLogo {
+    width: 150px;
+    border-radius: 150px;
+}
+
+.medidasImg {
+    width: 110px;
+    border-radius: 110px;
+}
+
+
+.bordeImg {
+    border: 2px solid black;
+}
+
+.medidaMenu {
+    width: 25px;
+}
+
+.nav-desk {
+    color: black;
+}
+
+@media only screen and (max-width: 426px){
+   
+    .nav-desk {
+        display: none;
+    }
+    
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    .nav-desk {
+        display: none;
+    }
+
+@media only screen and (min-width: 1024px){
+    .nav-mob {
+        display: none;
+    }
+    .borrar {
+        display: none !important;
+    }
+
+    }
+
+
+
+
+
+/* @media only screen and (mix-widht: 425px) and (max-widht: 1023px){
+    .medidaMenu {
+        width: 50px;
+    }
+} */
+
+/* FUENTE TITULO */
+/* h1 {font-family: fuente;} */
+
